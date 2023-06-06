@@ -1,6 +1,6 @@
 (ns clj-logback-appender.core
                     ; "Java-friendly" name
-  (:gen-class :name jpalharini.ClojureLogbackAppender
+  (:gen-class :name ClojureLogbackAppender
                        ; Class
               :extends ch.qos.logback.core.AppenderBase
                           ; Interface/s

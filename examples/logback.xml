@@ -1,0 +1,9 @@
+<configuration debug="true">
+
+    <appender name="CLJ" class="jpalharini.ClojureLogbackAppender"/>
+
+    <root level="INFO">
+        <appender-ref ref="CLJ"/>
+    </root>
+
+</configuration>
